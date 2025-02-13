@@ -608,11 +608,11 @@ a:focus {
 }
 
 .client_section .client_container .client_id .name h6 {
-  color: #ff4f5a;
+  color: var(--azul-oscuro);
 }
 
 .info_section {
-  background-color: #ff4f5a;
+  background-color: var(--azul-oscuro);
   color: #ffffff;
 }
 
