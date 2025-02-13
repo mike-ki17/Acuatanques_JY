@@ -59,6 +59,7 @@ body {
   font-weight: bold;
   color: var(--azul-oscuro);
   position: relative;
+  text-align: center;
 }
 
 .custom_heading-container h3::before {
