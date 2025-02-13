@@ -304,6 +304,10 @@ a:focus {
   position: relative;
 }
 
+.padding_service_section{
+  padding: 75px 0;
+}
+
 .service_section .custom_heading-container {
   margin-bottom: 15px;
 }
