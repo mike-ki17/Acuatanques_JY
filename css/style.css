@@ -305,7 +305,7 @@ a:focus {
 }
 
 .padding_service_section{
-  padding: 75px 0;
+  padding: 75px;
 }
 
 .service_section .custom_heading-container {
@@ -313,7 +313,7 @@ a:focus {
 }
 
 .service_section .service_container {
-  padding: 45px 0 75px 0;
+  padding: 45px 0 0 0;
 }
 
 /* .service_section .box.b-2 .detail-box {
