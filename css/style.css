@@ -56,10 +56,17 @@ body {
   text-align: center;
   font-size: 4rem;
 }
+
 .decorate-text-color-2 {
   color: var(--azul-claro);
   font-size: 4rem;
 }
+
+.decorate-text-color-3{
+  color: var(--blanco);
+  font-size: 4rem;
+}
+
 .form-inline {
   gap: 20px;
 }
@@ -87,6 +94,23 @@ body {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background-color: var(--verde-oscuro);
+  border-radius: 15px;
+}
+.subtitle-3{
+  position: relative;
+}
+
+.subtitle-3::before {
+  content: "";
+  position: absolute;
+  /* bottom: -7px; */
+  top: 130%;
+  left: 50%;
+  width: 130px;
+  height: 7px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: var(--blanco);
   border-radius: 15px;
 }
 .tiquet{

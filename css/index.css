@@ -51,9 +51,7 @@
   gap: 30px;
   margin-top: 60px;
   flex-wrap: wrap;
-  
 }
-
 
 .layout-derecha img {
   width: 600px;
@@ -68,61 +66,164 @@
 }
 
 .layout-izquierda {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    margin-top: 60px;
-  }
-  
-  .layout-izquierda img {
-    width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
 }
-  
-  .layout-izquierda p {
-    text-align: right;
-    font-size: 23px;
-    width: 400px;
-    color: gray;
-    position: relative;
-  }
 
-  .equipo{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0;
-  }
+.layout-izquierda img {
+  width: 600px;
+}
 
-  .container-equipo{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    width: 90%;
-  }
-  .contianer-colaboradores{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-  }
+.layout-izquierda p {
+  text-align: right;
+  font-size: 23px;
+  width: 400px;
+  color: gray;
+  position: relative;
+}
 
-  .equipo-item-colaborador img{
-    width: 150px;
-    border-radius: 50%;
-    border: 2px solid var(--verde-claro);
-  }
-  .equipo-item-colaborador{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+.equipo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
 
-  .equipo-item-colaborador span {
-    color: gray;
-    font-size: 20px;
-  }
+.container-equipo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+}
+.contianer-colaboradores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
 
+.equipo-item-colaborador img {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--verde-claro);
+  margin-bottom: 10px;
+}
+.equipo-item-colaborador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.equipo-item-colaborador span {
+  color: gray;
+  font-size: 20px;
+}
+
+.service-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+  background-image: url("../images/Página\ Acuatanques\ JY-04.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+}
+.container-service {
+  width: 100%;
+}
+.services-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.services-items img {
+  width: 250px;
+  height: 280px;
+  border-radius: 20px;
+}
+
+.item-service h4 {
+  color: var(--blanco);
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+}
+
+.nuestros-clientes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.container-clientes {
+  width: 90%;
+  gap: 30px;
+}
+
+.clientes-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.item-cliente {
+  width: 500px;
+  height: 200px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid var(--azul-oscuro);
+  padding: 30px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  background-color: var(--azul-oscuro);
+  box-shadow: 0px -15px 0 var(--verde-oscuro);
+}
+
+.container-footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-logo img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.redirect-links a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 20px;
+  /* margin-right: 10px; */
+  text-align: right;
+}
