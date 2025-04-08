@@ -76,7 +76,7 @@
   }
   
   .container-banner {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .slider_section .detail-box {
@@ -129,7 +129,11 @@
     }
 
     .layout-derecha img {
-        width: 400px;
+        width: 300px;
+      }
+
+    .layout-derecha p {
+        font-size: 17px;
       }
 
     .service-section {
@@ -137,7 +141,7 @@
        
       }
     .item-service img{
-        width: 350px;
+        width: 300px;
     }
 
     .center{

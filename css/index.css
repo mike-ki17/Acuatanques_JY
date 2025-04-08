@@ -110,7 +110,7 @@
 .equipo-item-colaborador img {
   width: 150px;
   border-radius: 50%;
-  border: 2px solid var(--verde-claro);
+  /* border: 2px solid var(--verde-claro); */
   margin-bottom: 10px;
 }
 .equipo-item-colaborador {
@@ -226,4 +226,12 @@
   font-size: 20px;
   /* margin-right: 10px; */
   text-align: right;
+  cursor: pointer;
 }
+
+
+.img-box-cliente img{
+  width: 100px;
+}
+
+
