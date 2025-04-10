@@ -8,6 +8,10 @@
   --blanco: #ffffff;
 }
 
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container-banner {
   width: 100%;
   height: 430px;
@@ -215,8 +219,7 @@
 }
 
 .img-logo img {
-  width: 150px;
-  height: 150px;
+  width: 250px;
 }
 
 .redirect-links a {
@@ -238,5 +241,13 @@
   justify-content: center;
   align-items: center;
 }
+/* 
+.footer-nav li{
+  list-style: none;
+}
 
-
+.footer-nav a{
+  color: var(--blanco);
+  text-decoration: none;
+  cursor: pointer;
+} */
